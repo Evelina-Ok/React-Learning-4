@@ -3,7 +3,7 @@ import './App.scss'
 // import { Navbar } from './components/Nav/Navbar'
 // import { Header } from './components/Header/Header'
 // import { Main } from './components/Main/Main'
-import { Greetings } from './components/HookUseState'
+import { Greetings } from './components/Greeting'
 import { Counter } from './components/Counter'
 
 function App() {

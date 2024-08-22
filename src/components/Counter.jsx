@@ -16,8 +16,8 @@ export const Counter = () => {
     <>  
             <h3>How many enemies did they kill in the battle of Helm's Deep?</h3>
         <div>
-            //'add' function needs to be different on each button. 
-            //Otherwise both buttons will execute the function and add to the same number
+            {/* 'add' function needs to be different on each button.  */}
+            {/* Otherwise both buttons will execute the function and add to the same number */}
             <h4>{countOne}</h4>
             <button onClick={addOne}>Gimli</button>
         </div>
