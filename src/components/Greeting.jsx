@@ -17,3 +17,12 @@ export function Greetings() {
         </>
     )
 }
+
+// Kasper's way:
+// export const InputField = () => {
+//     const [textInput, setTextInput] = useState("")
+// }
+// return{
+// input onChange{(event) => setTextInput(event.target.value)}></input>
+// <p>sent hilsen til {textInput.to LocaleUpperCase()}</p>
+// }
